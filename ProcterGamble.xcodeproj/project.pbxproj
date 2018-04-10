@@ -8,12 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		850FB219207A0A7F00E6658D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850FB218207A0A7F00E6658D /* AppDelegate.swift */; };
-		850FB21B207A0A7F00E6658D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850FB21A207A0A7F00E6658D /* ViewController.swift */; };
 		850FB21E207A0A7F00E6658D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850FB21C207A0A7F00E6658D /* Main.storyboard */; };
 		850FB220207A0A7F00E6658D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850FB21F207A0A7F00E6658D /* Assets.xcassets */; };
 		850FB223207A0A7F00E6658D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850FB221207A0A7F00E6658D /* LaunchScreen.storyboard */; };
 		850FB22E207A0A7F00E6658D /* ProcterGambleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850FB22D207A0A7F00E6658D /* ProcterGambleTests.swift */; };
 		850FB239207A0A7F00E6658D /* ProcterGambleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850FB238207A0A7F00E6658D /* ProcterGambleUITests.swift */; };
+		859BB6B9207CC88E008870F5 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859BB6B8207CC88E008870F5 /* HomePage.swift */; };
+		859BB6BC207CCA26008870F5 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859BB6BB207CCA26008870F5 /* Camera.swift */; };
+		859BB6BE207CCA4A008870F5 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859BB6BD207CCA4A008870F5 /* Photo.swift */; };
+		859BB6C0207CCA5B008870F5 /* Cupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859BB6BF207CCA5B008870F5 /* Cupon.swift */; };
+		859BB6C2207CCA6C008870F5 /* Policy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859BB6C1207CCA6C008870F5 /* Policy.swift */; };
+		859BB6C4207CCA7A008870F5 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859BB6C3207CCA7A008870F5 /* Settings.swift */; };
+		859BB6C6207CCAA7008870F5 /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859BB6C5207CCAA7008870F5 /* CameraModel.swift */; };
+		859BB6C8207CCAB9008870F5 /* HomePageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859BB6C7207CCAB9008870F5 /* HomePageModel.swift */; };
+		859BB6CA207CCACA008870F5 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859BB6C9207CCACA008870F5 /* PhotoModel.swift */; };
+		859BB6CC207CCADE008870F5 /* CuponModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859BB6CB207CCADE008870F5 /* CuponModel.swift */; };
+		859BB6CE207CCAEC008870F5 /* PolicyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859BB6CD207CCAEC008870F5 /* PolicyModel.swift */; };
+		859BB6D0207CCAFC008870F5 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859BB6CF207CCAFC008870F5 /* SettingsModel.swift */; };
+		859BB6D2207CCB2C008870F5 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859BB6D1207CCB2C008870F5 /* Storage.swift */; };
+		859BB6D4207CCB4D008870F5 /* Twillio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859BB6D3207CCB4D008870F5 /* Twillio.swift */; };
+		859BB6D6207CCC13008870F5 /* FetchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859BB6D5207CCC13008870F5 /* FetchRequest.swift */; };
+		859BB6D8207CCC3D008870F5 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859BB6D7207CCC3D008870F5 /* AppManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +51,6 @@
 /* Begin PBXFileReference section */
 		850FB215207A0A7F00E6658D /* ProcterGamble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProcterGamble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		850FB218207A0A7F00E6658D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		850FB21A207A0A7F00E6658D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		850FB21D207A0A7F00E6658D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		850FB21F207A0A7F00E6658D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		850FB222207A0A7F00E6658D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +61,22 @@
 		850FB234207A0A7F00E6658D /* ProcterGambleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProcterGambleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		850FB238207A0A7F00E6658D /* ProcterGambleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcterGambleUITests.swift; sourceTree = "<group>"; };
 		850FB23A207A0A7F00E6658D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		859BB6B8207CC88E008870F5 /* HomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		859BB6BB207CCA26008870F5 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		859BB6BD207CCA4A008870F5 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		859BB6BF207CCA5B008870F5 /* Cupon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cupon.swift; sourceTree = "<group>"; };
+		859BB6C1207CCA6C008870F5 /* Policy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Policy.swift; sourceTree = "<group>"; };
+		859BB6C3207CCA7A008870F5 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		859BB6C5207CCAA7008870F5 /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		859BB6C7207CCAB9008870F5 /* HomePageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageModel.swift; sourceTree = "<group>"; };
+		859BB6C9207CCACA008870F5 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		859BB6CB207CCADE008870F5 /* CuponModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuponModel.swift; sourceTree = "<group>"; };
+		859BB6CD207CCAEC008870F5 /* PolicyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyModel.swift; sourceTree = "<group>"; };
+		859BB6CF207CCAFC008870F5 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		859BB6D1207CCB2C008870F5 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		859BB6D3207CCB4D008870F5 /* Twillio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twillio.swift; sourceTree = "<group>"; };
+		859BB6D5207CCC13008870F5 /* FetchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRequest.swift; sourceTree = "<group>"; };
+		859BB6D7207CCC3D008870F5 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +127,13 @@
 		850FB217207A0A7F00E6658D /* ProcterGamble */ = {
 			isa = PBXGroup;
 			children = (
+				859BB6BA207CC8D9008870F5 /* Managers */,
+				859BB6B7207CC731008870F5 /* Resource */,
+				859BB6B6207CC70A008870F5 /* Presenters */,
+				859BB6B5207CC6F6008870F5 /* Services */,
+				859BB6B4207CC6E7008870F5 /* Models */,
+				859BB6B3207CC6DB008870F5 /* Views */,
 				850FB218207A0A7F00E6658D /* AppDelegate.swift */,
-				850FB21A207A0A7F00E6658D /* ViewController.swift */,
 				850FB21C207A0A7F00E6658D /* Main.storyboard */,
 				850FB21F207A0A7F00E6658D /* Assets.xcassets */,
 				850FB221207A0A7F00E6658D /* LaunchScreen.storyboard */,
@@ -123,6 +158,64 @@
 				850FB23A207A0A7F00E6658D /* Info.plist */,
 			);
 			path = ProcterGambleUITests;
+			sourceTree = "<group>";
+		};
+		859BB6B3207CC6DB008870F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				859BB6BB207CCA26008870F5 /* Camera.swift */,
+				859BB6B8207CC88E008870F5 /* HomePage.swift */,
+				859BB6BD207CCA4A008870F5 /* Photo.swift */,
+				859BB6BF207CCA5B008870F5 /* Cupon.swift */,
+				859BB6C1207CCA6C008870F5 /* Policy.swift */,
+				859BB6C3207CCA7A008870F5 /* Settings.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		859BB6B4207CC6E7008870F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				859BB6C5207CCAA7008870F5 /* CameraModel.swift */,
+				859BB6C7207CCAB9008870F5 /* HomePageModel.swift */,
+				859BB6C9207CCACA008870F5 /* PhotoModel.swift */,
+				859BB6CB207CCADE008870F5 /* CuponModel.swift */,
+				859BB6CD207CCAEC008870F5 /* PolicyModel.swift */,
+				859BB6CF207CCAFC008870F5 /* SettingsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		859BB6B5207CC6F6008870F5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				859BB6D1207CCB2C008870F5 /* Storage.swift */,
+				859BB6D3207CCB4D008870F5 /* Twillio.swift */,
+				859BB6D5207CCC13008870F5 /* FetchRequest.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		859BB6B6207CC70A008870F5 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		859BB6B7207CC731008870F5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		859BB6BA207CC8D9008870F5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				859BB6D7207CCC3D008870F5 /* AppManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +352,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				850FB21B207A0A7F00E6658D /* ViewController.swift in Sources */,
+				859BB6D6207CCC13008870F5 /* FetchRequest.swift in Sources */,
+				859BB6C8207CCAB9008870F5 /* HomePageModel.swift in Sources */,
+				859BB6D2207CCB2C008870F5 /* Storage.swift in Sources */,
+				859BB6C0207CCA5B008870F5 /* Cupon.swift in Sources */,
+				859BB6BE207CCA4A008870F5 /* Photo.swift in Sources */,
 				850FB219207A0A7F00E6658D /* AppDelegate.swift in Sources */,
+				859BB6B9207CC88E008870F5 /* HomePage.swift in Sources */,
+				859BB6C4207CCA7A008870F5 /* Settings.swift in Sources */,
+				859BB6D4207CCB4D008870F5 /* Twillio.swift in Sources */,
+				859BB6CC207CCADE008870F5 /* CuponModel.swift in Sources */,
+				859BB6BC207CCA26008870F5 /* Camera.swift in Sources */,
+				859BB6D8207CCC3D008870F5 /* AppManager.swift in Sources */,
+				859BB6C6207CCAA7008870F5 /* CameraModel.swift in Sources */,
+				859BB6CE207CCAEC008870F5 /* PolicyModel.swift in Sources */,
+				859BB6CA207CCACA008870F5 /* PhotoModel.swift in Sources */,
+				859BB6C2207CCA6C008870F5 /* Policy.swift in Sources */,
+				859BB6D0207CCAFC008870F5 /* SettingsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
