@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		850FB219207A0A7F00E6658D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850FB218207A0A7F00E6658D /* AppDelegate.swift */; };
+		850FB21B207A0A7F00E6658D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850FB21A207A0A7F00E6658D /* ViewController.swift */; };
+		850FB21E207A0A7F00E6658D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850FB21C207A0A7F00E6658D /* Main.storyboard */; };
+		850FB220207A0A7F00E6658D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850FB21F207A0A7F00E6658D /* Assets.xcassets */; };
+		850FB223207A0A7F00E6658D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850FB221207A0A7F00E6658D /* LaunchScreen.storyboard */; };
+		850FB22E207A0A7F00E6658D /* ProcterGambleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850FB22D207A0A7F00E6658D /* ProcterGambleTests.swift */; };
+		850FB239207A0A7F00E6658D /* ProcterGambleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850FB238207A0A7F00E6658D /* ProcterGambleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		850FB22A207A0A7F00E6658D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 850FB20D207A0A7F00E6658D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 850FB214207A0A7F00E6658D;
+			remoteInfo = ProcterGamble;
+		};
+		850FB235207A0A7F00E6658D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 850FB20D207A0A7F00E6658D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 850FB214207A0A7F00E6658D;
+			remoteInfo = ProcterGamble;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		850FB215207A0A7F00E6658D /* ProcterGamble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProcterGamble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		850FB218207A0A7F00E6658D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		850FB21A207A0A7F00E6658D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		850FB21D207A0A7F00E6658D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		850FB21F207A0A7F00E6658D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		850FB222207A0A7F00E6658D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		850FB224207A0A7F00E6658D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		850FB229207A0A7F00E6658D /* ProcterGambleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProcterGambleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		850FB22D207A0A7F00E6658D /* ProcterGambleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcterGambleTests.swift; sourceTree = "<group>"; };
+		850FB22F207A0A7F00E6658D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		850FB234207A0A7F00E6658D /* ProcterGambleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProcterGambleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		850FB238207A0A7F00E6658D /* ProcterGambleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcterGambleUITests.swift; sourceTree = "<group>"; };
+		850FB23A207A0A7F00E6658D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		850FB212207A0A7F00E6658D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850FB226207A0A7F00E6658D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850FB231207A0A7F00E6658D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		850FB20C207A0A7F00E6658D = {
+			isa = PBXGroup;
+			children = (
+				850FB217207A0A7F00E6658D /* ProcterGamble */,
+				850FB22C207A0A7F00E6658D /* ProcterGambleTests */,
+				850FB237207A0A7F00E6658D /* ProcterGambleUITests */,
+				850FB216207A0A7F00E6658D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		850FB216207A0A7F00E6658D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				850FB215207A0A7F00E6658D /* ProcterGamble.app */,
+				850FB229207A0A7F00E6658D /* ProcterGambleTests.xctest */,
+				850FB234207A0A7F00E6658D /* ProcterGambleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		850FB217207A0A7F00E6658D /* ProcterGamble */ = {
+			isa = PBXGroup;
+			children = (
+				850FB218207A0A7F00E6658D /* AppDelegate.swift */,
+				850FB21A207A0A7F00E6658D /* ViewController.swift */,
+				850FB21C207A0A7F00E6658D /* Main.storyboard */,
+				850FB21F207A0A7F00E6658D /* Assets.xcassets */,
+				850FB221207A0A7F00E6658D /* LaunchScreen.storyboard */,
+				850FB224207A0A7F00E6658D /* Info.plist */,
+			);
+			path = ProcterGamble;
+			sourceTree = "<group>";
+		};
+		850FB22C207A0A7F00E6658D /* ProcterGambleTests */ = {
+			isa = PBXGroup;
+			children = (
+				850FB22D207A0A7F00E6658D /* ProcterGambleTests.swift */,
+				850FB22F207A0A7F00E6658D /* Info.plist */,
+			);
+			path = ProcterGambleTests;
+			sourceTree = "<group>";
+		};
+		850FB237207A0A7F00E6658D /* ProcterGambleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				850FB238207A0A7F00E6658D /* ProcterGambleUITests.swift */,
+				850FB23A207A0A7F00E6658D /* Info.plist */,
+			);
+			path = ProcterGambleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		850FB214207A0A7F00E6658D /* ProcterGamble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 850FB23D207A0A7F00E6658D /* Build configuration list for PBXNativeTarget "ProcterGamble" */;
+			buildPhases = (
+				850FB211207A0A7F00E6658D /* Sources */,
+				850FB212207A0A7F00E6658D /* Frameworks */,
+				850FB213207A0A7F00E6658D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProcterGamble;
+			productName = ProcterGamble;
+			productReference = 850FB215207A0A7F00E6658D /* ProcterGamble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		850FB228207A0A7F00E6658D /* ProcterGambleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 850FB240207A0A7F00E6658D /* Build configuration list for PBXNativeTarget "ProcterGambleTests" */;
+			buildPhases = (
+				850FB225207A0A7F00E6658D /* Sources */,
+				850FB226207A0A7F00E6658D /* Frameworks */,
+				850FB227207A0A7F00E6658D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				850FB22B207A0A7F00E6658D /* PBXTargetDependency */,
+			);
+			name = ProcterGambleTests;
+			productName = ProcterGambleTests;
+			productReference = 850FB229207A0A7F00E6658D /* ProcterGambleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		850FB233207A0A7F00E6658D /* ProcterGambleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 850FB243207A0A7F00E6658D /* Build configuration list for PBXNativeTarget "ProcterGambleUITests" */;
+			buildPhases = (
+				850FB230207A0A7F00E6658D /* Sources */,
+				850FB231207A0A7F00E6658D /* Frameworks */,
+				850FB232207A0A7F00E6658D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				850FB236207A0A7F00E6658D /* PBXTargetDependency */,
+			);
+			name = ProcterGambleUITests;
+			productName = ProcterGambleUITests;
+			productReference = 850FB234207A0A7F00E6658D /* ProcterGambleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		850FB20D207A0A7F00E6658D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Rita Zemaitis";
+				TargetAttributes = {
+					850FB214207A0A7F00E6658D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					850FB228207A0A7F00E6658D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 850FB214207A0A7F00E6658D;
+					};
+					850FB233207A0A7F00E6658D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 850FB214207A0A7F00E6658D;
+					};
+				};
+			};
+			buildConfigurationList = 850FB210207A0A7F00E6658D /* Build configuration list for PBXProject "ProcterGamble" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 850FB20C207A0A7F00E6658D;
+			productRefGroup = 850FB216207A0A7F00E6658D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				850FB214207A0A7F00E6658D /* ProcterGamble */,
+				850FB228207A0A7F00E6658D /* ProcterGambleTests */,
+				850FB233207A0A7F00E6658D /* ProcterGambleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		850FB213207A0A7F00E6658D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850FB223207A0A7F00E6658D /* LaunchScreen.storyboard in Resources */,
+				850FB220207A0A7F00E6658D /* Assets.xcassets in Resources */,
+				850FB21E207A0A7F00E6658D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850FB227207A0A7F00E6658D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850FB232207A0A7F00E6658D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		850FB211207A0A7F00E6658D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850FB21B207A0A7F00E6658D /* ViewController.swift in Sources */,
+				850FB219207A0A7F00E6658D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850FB225207A0A7F00E6658D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850FB22E207A0A7F00E6658D /* ProcterGambleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850FB230207A0A7F00E6658D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850FB239207A0A7F00E6658D /* ProcterGambleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		850FB22B207A0A7F00E6658D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 850FB214207A0A7F00E6658D /* ProcterGamble */;
+			targetProxy = 850FB22A207A0A7F00E6658D /* PBXContainerItemProxy */;
+		};
+		850FB236207A0A7F00E6658D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 850FB214207A0A7F00E6658D /* ProcterGamble */;
+			targetProxy = 850FB235207A0A7F00E6658D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		850FB21C207A0A7F00E6658D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				850FB21D207A0A7F00E6658D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		850FB221207A0A7F00E6658D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				850FB222207A0A7F00E6658D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		850FB23B207A0A7F00E6658D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		850FB23C207A0A7F00E6658D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		850FB23E207A0A7F00E6658D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8M39F9VTC;
+				INFOPLIST_FILE = ProcterGamble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yaelsoft.ProcterGamble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		850FB23F207A0A7F00E6658D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8M39F9VTC;
+				INFOPLIST_FILE = ProcterGamble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yaelsoft.ProcterGamble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		850FB241207A0A7F00E6658D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8M39F9VTC;
+				INFOPLIST_FILE = ProcterGambleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yaelsoft.ProcterGambleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProcterGamble.app/ProcterGamble";
+			};
+			name = Debug;
+		};
+		850FB242207A0A7F00E6658D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8M39F9VTC;
+				INFOPLIST_FILE = ProcterGambleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yaelsoft.ProcterGambleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProcterGamble.app/ProcterGamble";
+			};
+			name = Release;
+		};
+		850FB244207A0A7F00E6658D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8M39F9VTC;
+				INFOPLIST_FILE = ProcterGambleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yaelsoft.ProcterGambleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProcterGamble;
+			};
+			name = Debug;
+		};
+		850FB245207A0A7F00E6658D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8M39F9VTC;
+				INFOPLIST_FILE = ProcterGambleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yaelsoft.ProcterGambleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProcterGamble;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		850FB210207A0A7F00E6658D /* Build configuration list for PBXProject "ProcterGamble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				850FB23B207A0A7F00E6658D /* Debug */,
+				850FB23C207A0A7F00E6658D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		850FB23D207A0A7F00E6658D /* Build configuration list for PBXNativeTarget "ProcterGamble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				850FB23E207A0A7F00E6658D /* Debug */,
+				850FB23F207A0A7F00E6658D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		850FB240207A0A7F00E6658D /* Build configuration list for PBXNativeTarget "ProcterGambleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				850FB241207A0A7F00E6658D /* Debug */,
+				850FB242207A0A7F00E6658D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		850FB243207A0A7F00E6658D /* Build configuration list for PBXNativeTarget "ProcterGambleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				850FB244207A0A7F00E6658D /* Debug */,
+				850FB245207A0A7F00E6658D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 850FB20D207A0A7F00E6658D /* Project object */;
+}
