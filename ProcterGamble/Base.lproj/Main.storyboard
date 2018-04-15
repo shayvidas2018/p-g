@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -205,33 +206,70 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rec_one.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="pFM-i8-RWU">
                                 <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u63-U1-RSM">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u63-U1-RSM">
                                 <rect key="frame" x="20" y="1016" width="248" height="76"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.91764705882352937" green="0.074509803921568626" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="248" id="MmL-h5-yIQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="לקבלת קופון">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H1e-jA-GYr" userLabel="back">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H1e-jA-GYr" userLabel="back">
                                 <rect key="frame" x="674" y="1052" width="140" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="K8d-bm-NEA"/>
+                                    <constraint firstAttribute="height" constant="40" id="Yf4-Jx-wlj"/>
+                                </constraints>
                                 <state key="normal" image="back_button.png"/>
                                 <connections>
                                     <action selector="back:" destination="zAt-DJ-dWq" eventType="touchUpInside" id="O9p-tt-bIu"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="שיערך זקוק ללחות מוגברת. משפחת המוצרים המתאים לך אישית היא" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="afh-ST-Y0i">
+                                <rect key="frame" x="432" y="75" width="311" height="114"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="311" id="nQm-rE-N5Z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="REPAIR&amp;PROTECT" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="JCu-hU-VHx">
+                                <rect key="frame" x="432" y="197" width="311" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.54117647058823526" green="0.39215686274509803" blue="0.023529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="pFM-i8-RWU" firstAttribute="leading" secondItem="l8j-4x-Olm" secondAttribute="leading" id="0fQ-cN-6UH"/>
                             <constraint firstItem="pFM-i8-RWU" firstAttribute="trailing" secondItem="l8j-4x-Olm" secondAttribute="trailing" id="1gL-Nf-tpM"/>
+                            <constraint firstItem="H1e-jA-GYr" firstAttribute="bottom" secondItem="u63-U1-RSM" secondAttribute="bottom" id="8S2-a3-OKa"/>
+                            <constraint firstItem="H1e-jA-GYr" firstAttribute="trailing" secondItem="BGp-ML-ic4" secondAttribute="trailingMargin" id="9aq-uo-am0"/>
                             <constraint firstItem="pFM-i8-RWU" firstAttribute="top" secondItem="BGp-ML-ic4" secondAttribute="top" id="DgS-fv-Xgt"/>
+                            <constraint firstItem="H1e-jA-GYr" firstAttribute="top" secondItem="afh-ST-Y0i" secondAttribute="bottom" constant="863" id="EaU-Sm-eor"/>
+                            <constraint firstItem="afh-ST-Y0i" firstAttribute="top" secondItem="l8j-4x-Olm" secondAttribute="top" constant="55" id="Kva-vX-HqP"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="u63-U1-RSM" secondAttribute="trailingMargin" id="Tjk-Ys-dIR"/>
                             <constraint firstItem="pFM-i8-RWU" firstAttribute="bottom" secondItem="l8j-4x-Olm" secondAttribute="bottom" id="Wix-gM-sDv"/>
+                            <constraint firstItem="u63-U1-RSM" firstAttribute="leading" secondItem="BGp-ML-ic4" secondAttribute="leadingMargin" id="Y66-mP-u0h"/>
+                            <constraint firstItem="afh-ST-Y0i" firstAttribute="leading" secondItem="l8j-4x-Olm" secondAttribute="leading" constant="432" id="aOL-UJ-1Hf"/>
+                            <constraint firstItem="u63-U1-RSM" firstAttribute="top" secondItem="l8j-4x-Olm" secondAttribute="top" constant="996" id="eGW-Rz-fxe"/>
+                            <constraint firstItem="l8j-4x-Olm" firstAttribute="trailing" secondItem="afh-ST-Y0i" secondAttribute="trailing" constant="91" id="gce-lk-RIr"/>
+                            <constraint firstAttribute="bottom" secondItem="H1e-jA-GYr" secondAttribute="bottom" constant="20" symbolic="YES" id="yok-Km-nb2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="l8j-4x-Olm"/>
                     </view>
                     <connections>
                         <outlet property="animation_image" destination="pFM-i8-RWU" id="rWe-cw-dSr"/>
+                        <outlet property="brand" destination="JCu-hU-VHx" id="CXs-Q8-dYE"/>
+                        <outlet property="getCoupon" destination="u63-U1-RSM" id="XPn-Jj-AMa"/>
+                        <outlet property="rec_text" destination="afh-ST-Y0i" id="Lgh-OI-2as"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GqJ-tW-ZhU" userLabel="First Responder" sceneMemberID="firstResponder"/>

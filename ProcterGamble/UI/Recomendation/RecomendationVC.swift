@@ -13,8 +13,14 @@ import UIKit
 class RecomendationVC: UIViewController{
     
     @IBOutlet weak var animation_image: UIImageView!
+    @IBOutlet weak var rec_text: UITextView!
+    @IBOutlet weak var brand: UITextView!
+    @IBOutlet weak var getCoupon: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        rec_text.isHidden = true
+        brand.isHidden = true
+        getCoupon.isHidden = true
         let animationImages=[UIImage(named:"rec_one.jpg"),UIImage(named:"rec_two.jpg"),UIImage(named:"rec_three.jpg")]
         animation_image.animationImages=animationImages as? [UIImage]
         animation_image.animationDuration=TimeInterval(1*animationImages.count)
@@ -22,6 +28,15 @@ class RecomendationVC: UIViewController{
         animation_image.animationRepeatCount=0
         animation_image.startAnimating()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        Timer.scheduledTimer(timeInterval: 5.0, target: self, selector: #selector(self.stopAnimation), userInfo: nil, repeats: true)
+    }
+    
+    @objc func stopAnimation (){
+        animation_image.stopAnimating()
+        rec_text.isHidden = false
+        brand.isHidden = false
+        getCoupon.isHidden = false
     }
     
 }
