@@ -7,3 +7,10 @@
 //
 
 import Foundation
+import MobileCoreServices
+import UIKit
+
+class CamereVC: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate{
+    
+}
+

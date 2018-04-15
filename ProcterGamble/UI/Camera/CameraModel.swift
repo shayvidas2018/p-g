@@ -1,5 +1,5 @@
 //
-//  HomePageModel.swift
+//  CameraModel.swift
 //  ProcterGamble
 //
 //  Created by Rita Zemaitis on 10/04/2018.
@@ -7,3 +7,9 @@
 //
 
 import Foundation
+import MobileCoreServices
+import UIKit
+
+class CamereModel{
+    init() {}
+}

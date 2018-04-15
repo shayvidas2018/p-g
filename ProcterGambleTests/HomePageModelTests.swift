@@ -1,15 +1,15 @@
 //
-//  ProcterGambleTests.swift
+//  HomePageModelTests.swift
 //  ProcterGambleTests
 //
-//  Created by Rita Zemaitis on 08/04/2018.
+//  Created by Rita Zemaitis on 11/04/2018.
 //  Copyright © 2018 Rita Zemaitis. All rights reserved.
 //
 
 import XCTest
 @testable import ProcterGamble
 
-class ProcterGambleTests: XCTestCase {
+class HomePageModelTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -20,7 +20,11 @@ class ProcterGambleTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-   
-    func test
     
+    func testPressStart(){
+        let homePageModel = HomePageModel()
+        let eng = "english"
+        let heb = "hebrew"
+        
+    }
 }
