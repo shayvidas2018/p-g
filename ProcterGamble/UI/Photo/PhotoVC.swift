@@ -30,10 +30,10 @@ class PhotoVC: UIViewController{
     }
     
     @IBAction func tryAgainPressed(_ sender: UIButton) {
-        if let presentedViewController = self.storyboard?.instantiateViewController(withIdentifier: "CameraVC") {
-            self.present(presentedViewController, animated: true, completion: nil)
-        }
         dismiss(animated: true, completion: nil)
+//        if let presentedViewController = self.storyboard?.instantiateViewController(withIdentifier: "CameraVC") {
+//            self.present(presentedViewController, animated: true, completion: nil)
+//        }
     }
     
     @IBAction func recomendationPressed(_ sender: UIButton) {

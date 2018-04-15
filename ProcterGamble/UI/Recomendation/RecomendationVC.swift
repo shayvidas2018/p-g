@@ -12,9 +12,15 @@ import UIKit
 
 class RecomendationVC: UIViewController{
     
+    @IBOutlet weak var animation_image: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        let animationImages=[UIImage(named:"rec_one.jpg"),UIImage(named:"rec_two.jpg"),UIImage(named:"rec_three.jpg")]
+        animation_image.animationImages=animationImages as? [UIImage]
+        animation_image.animationDuration=TimeInterval(1*animationImages.count)
+        //to make it loop infinitely
+        animation_image.animationRepeatCount=0
+        animation_image.startAnimating()
         // Do any additional setup after loading the view, typically from a nib.
     }
     

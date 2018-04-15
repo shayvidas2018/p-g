@@ -32,14 +32,18 @@ class CameraVC: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
         view.backgroundColor = UIColor.black
         captureSession = AVCaptureSession()
         
-        let videoCaptureDevice = AVCaptureDevice.default(for: AVMediaType.video)
-        let videoInput: AVCaptureDeviceInput
-        
-        do {
-            videoInput = try AVCaptureDeviceInput(device: videoCaptureDevice!)
-        } catch {
-            return
+        _ = AVCaptureDevice.default(for: AVMediaType.video)
+        var selfieVideoInput: AVCaptureDeviceInput? = nil
+        let devices = AVCaptureDevice.devices(for: AVMediaType.video)
+        for camera in devices {
+            if camera.position == .front {
+
+                    selfieVideoInput = try? AVCaptureDeviceInput(device: camera)
+                    break
+
+            }
         }
+        guard let videoInput = selfieVideoInput else { return }
         
         if (captureSession.canAddInput(videoInput)) {
             captureSession.addInput(videoInput)
@@ -54,11 +58,11 @@ class CameraVC: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
         view.layer.addSublayer(previewLayer);
         
         captureSession.startRunning();
-        stillImageOutput.outputSettings = [AVVideoCodecKey:AVVideoCodecType.jpeg]
+        stillImageOutput.outputSettings = [AVVideoCodecKey:AVVideoCodecJPEG]
         if captureSession.canAddOutput(stillImageOutput) {
             captureSession.addOutput(stillImageOutput)
         }
-        
+
 //        self.view.bringSubview(toFront: customView)
         
         self.view.bringSubview(toFront: netBackgraund)
@@ -88,6 +92,9 @@ class CameraVC: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
         }
     }
     
+    @IBAction func back(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
     func failed() {
         let ac = UIAlertController(title: "Scanning not supported", message: "Your device does not support scanning a code from an item. Please use a device with a camera.", preferredStyle: .alert)
         ac.addAction(UIAlertAction(title: "OK", style: .default))

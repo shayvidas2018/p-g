@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="ipad10_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -128,6 +128,9 @@
                                 <rect key="frame" x="20" y="1041" width="140" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="back_button.png"/>
+                                <connections>
+                                    <action selector="back:" destination="zAt-DJ-dWq" eventType="touchUpInside" id="zJP-uW-oVm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="keR-7r-g1x" userLabel="takepicture">
                                 <rect key="frame" x="323" y="569" width="218" height="56"/>
@@ -199,24 +202,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Rn-bB-Nuo">
-                                <rect key="frame" x="0.0" y="0.0" width="150" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.300752507" green="0.33416799069999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rec_one.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="pFM-i8-RWU">
+                                <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u63-U1-RSM">
-                                <rect key="frame" x="32" y="617" width="79" height="30"/>
+                                <rect key="frame" x="20" y="1016" width="248" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="לקבלת קופון">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H1e-jA-GYr" userLabel="back">
+                                <rect key="frame" x="674" y="1052" width="140" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="back_button.png"/>
+                                <connections>
+                                    <action selector="back:" destination="zAt-DJ-dWq" eventType="touchUpInside" id="O9p-tt-bIu"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="pFM-i8-RWU" firstAttribute="leading" secondItem="l8j-4x-Olm" secondAttribute="leading" id="0fQ-cN-6UH"/>
+                            <constraint firstItem="pFM-i8-RWU" firstAttribute="trailing" secondItem="l8j-4x-Olm" secondAttribute="trailing" id="1gL-Nf-tpM"/>
+                            <constraint firstItem="pFM-i8-RWU" firstAttribute="top" secondItem="BGp-ML-ic4" secondAttribute="top" id="DgS-fv-Xgt"/>
+                            <constraint firstItem="pFM-i8-RWU" firstAttribute="bottom" secondItem="l8j-4x-Olm" secondAttribute="bottom" id="Wix-gM-sDv"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="l8j-4x-Olm"/>
                     </view>
+                    <connections>
+                        <outlet property="animation_image" destination="pFM-i8-RWU" id="rWe-cw-dSr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GqJ-tW-ZhU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1655.2" y="114.69265367316342"/>
+            <point key="canvasLocation" x="1654.676258992806" y="114.3884892086331"/>
         </scene>
         <!--CouponVC-->
         <scene sceneID="oiG-0a-rRN">
@@ -270,6 +290,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="eTO-9O-lGf" firstAttribute="trailing" secondItem="JRH-tS-ncC" secondAttribute="trailing" id="7yn-J6-4fp"/>
+                            <constraint firstItem="eTO-9O-lGf" firstAttribute="bottom" secondItem="JRH-tS-ncC" secondAttribute="bottom" id="9kJ-JO-YBP"/>
+                            <constraint firstItem="eTO-9O-lGf" firstAttribute="top" secondItem="Gsk-Wv-9eg" secondAttribute="top" id="Bbu-pq-Uac"/>
+                            <constraint firstItem="eTO-9O-lGf" firstAttribute="leading" secondItem="JRH-tS-ncC" secondAttribute="leading" id="NBs-9J-hpf"/>
+                            <constraint firstItem="eTO-9O-lGf" firstAttribute="trailing" secondItem="JRH-tS-ncC" secondAttribute="trailing" id="aiX-5X-L9J"/>
                             <constraint firstItem="eTO-9O-lGf" firstAttribute="bottom" secondItem="JRH-tS-ncC" secondAttribute="bottom" id="ck4-fx-lts"/>
                             <constraint firstItem="eTO-9O-lGf" firstAttribute="leading" secondItem="JRH-tS-ncC" secondAttribute="leading" id="fy5-vX-gvr"/>
                             <constraint firstItem="eTO-9O-lGf" firstAttribute="top" secondItem="Gsk-Wv-9eg" secondAttribute="top" id="yKN-7z-YGQ"/>
@@ -290,6 +314,7 @@
         <image name="back_button.png" width="279" height="80"/>
         <image name="i_want_start.png" width="394" height="100"/>
         <image name="main_bg_updated.png" width="1536" height="2048"/>
+        <image name="rec_one.jpg" width="1484" height="2056"/>
         <image name="shoot_text.png" width="527" height="318"/>
         <image name="takepicture.png" width="518" height="132"/>
         <image name="text_shooting.png" width="277" height="42"/>

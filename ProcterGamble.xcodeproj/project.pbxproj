@@ -29,6 +29,9 @@
 		8513113F20836B94008DF6F4 /* text_shooting.png in Resources */ = {isa = PBXBuildFile; fileRef = 8513112F20836B94008DF6F4 /* text_shooting.png */; };
 		8513114020836B94008DF6F4 /* animation_two.png in Resources */ = {isa = PBXBuildFile; fileRef = 8513113020836B94008DF6F4 /* animation_two.png */; };
 		8513114120836B94008DF6F4 /* main_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8513113120836B94008DF6F4 /* main_background.png */; };
+		85131145208394C2008DF6F4 /* rec_three.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85131142208394C1008DF6F4 /* rec_three.jpg */; };
+		85131146208394C2008DF6F4 /* rec_two.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85131143208394C1008DF6F4 /* rec_two.jpg */; };
+		85131147208394C2008DF6F4 /* rec_one.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85131144208394C2008DF6F4 /* rec_one.jpg */; };
 		85170AC220833850000AE5CD /* RecomendationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85170AC120833850000AE5CD /* RecomendationVC.swift */; };
 		85170AC420833862000AE5CD /* RecomendationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85170AC320833862000AE5CD /* RecomendationModel.swift */; };
 		85170AC72083387D000AE5CD /* RecomendationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85170AC62083387D000AE5CD /* RecomendationPresenter.swift */; };
@@ -105,6 +108,9 @@
 		8513112F20836B94008DF6F4 /* text_shooting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_shooting.png; sourceTree = "<group>"; };
 		8513113020836B94008DF6F4 /* animation_two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_two.png; sourceTree = "<group>"; };
 		8513113120836B94008DF6F4 /* main_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_background.png; sourceTree = "<group>"; };
+		85131142208394C1008DF6F4 /* rec_three.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rec_three.jpg; sourceTree = "<group>"; };
+		85131143208394C1008DF6F4 /* rec_two.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rec_two.jpg; sourceTree = "<group>"; };
+		85131144208394C2008DF6F4 /* rec_one.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rec_one.jpg; sourceTree = "<group>"; };
 		85170AC120833850000AE5CD /* RecomendationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecomendationVC.swift; sourceTree = "<group>"; };
 		85170AC320833862000AE5CD /* RecomendationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecomendationModel.swift; sourceTree = "<group>"; };
 		85170AC62083387D000AE5CD /* RecomendationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecomendationPresenter.swift; sourceTree = "<group>"; };
@@ -240,6 +246,9 @@
 		859BB6B7207CC731008870F5 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				85131144208394C2008DF6F4 /* rec_one.jpg */,
+				85131142208394C1008DF6F4 /* rec_three.jpg */,
+				85131143208394C1008DF6F4 /* rec_two.jpg */,
 				8513112920836B94008DF6F4 /* animation_four.png */,
 				8513112320836B93008DF6F4 /* animation_one.png */,
 				8513112A20836B94008DF6F4 /* animation_three.png */,
@@ -476,10 +485,13 @@
 				8513113E20836B94008DF6F4 /* Net.png in Resources */,
 				8513113620836B94008DF6F4 /* vector_three.png in Resources */,
 				8513113820836B94008DF6F4 /* i_want_start.png in Resources */,
+				85131145208394C2008DF6F4 /* rec_three.jpg in Resources */,
 				8513114120836B94008DF6F4 /* main_background.png in Resources */,
 				850FB220207A0A7F00E6658D /* Assets.xcassets in Resources */,
 				8513113B20836B94008DF6F4 /* vector_four.png in Resources */,
 				859BB6EC207CD764008870F5 /* Podfile in Resources */,
+				85131147208394C2008DF6F4 /* rec_one.jpg in Resources */,
+				85131146208394C2008DF6F4 /* rec_two.jpg in Resources */,
 				850FB21E207A0A7F00E6658D /* Main.storyboard in Resources */,
 				8513113A20836B94008DF6F4 /* animation_three.png in Resources */,
 			);
