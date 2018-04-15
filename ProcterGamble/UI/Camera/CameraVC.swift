@@ -17,6 +17,15 @@ class CameraVC: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     let stillImageOutput = AVCaptureStillImageOutput()
     @IBOutlet weak var customView: UIView!
     @IBOutlet weak var photoButton: UIButton!
+    
+    @IBOutlet weak var netBackgraund: UIImageView!
+    @IBOutlet weak var vector_one: UIImageView!
+    @IBOutlet weak var vector_four: UIImageView!
+    @IBOutlet weak var back: UIButton!
+    @IBOutlet weak var shoot_text: UIImageView!
+    @IBOutlet weak var shooting_text: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -50,7 +59,15 @@ class CameraVC: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
             captureSession.addOutput(stillImageOutput)
         }
         
-        // self.view.bringSubview(toFront: customView)
+//        self.view.bringSubview(toFront: customView)
+        
+        self.view.bringSubview(toFront: netBackgraund)
+        self.view.bringSubview(toFront: vector_one)
+        self.view.bringSubview(toFront: vector_four)
+        self.view.bringSubview(toFront: shoot_text)
+        
+        self.view.bringSubview(toFront: shooting_text)
+        self.view.bringSubview(toFront: back)
         self.view.bringSubview(toFront: photoButton)
     }
     
