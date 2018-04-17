@@ -13,13 +13,10 @@ import UIKit
 class RecomendationVC: UIViewController{
     
     @IBOutlet weak var animation_image: UIImageView!
-    @IBOutlet weak var rec_text: UITextView!
-    @IBOutlet weak var brand: UITextView!
     @IBOutlet weak var getCoupon: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        rec_text.isHidden = true
-        brand.isHidden = true
+        
         getCoupon.isHidden = true
         let animationImages=[UIImage(named:"rec_one.jpg"),UIImage(named:"rec_two.jpg"),UIImage(named:"rec_three.jpg")]
         animation_image.animationImages=animationImages as? [UIImage]
@@ -34,8 +31,7 @@ class RecomendationVC: UIViewController{
     
     @objc func stopAnimation (){
         animation_image.stopAnimating()
-        rec_text.isHidden = false
-        brand.isHidden = false
+        
         getCoupon.isHidden = false
     }
     

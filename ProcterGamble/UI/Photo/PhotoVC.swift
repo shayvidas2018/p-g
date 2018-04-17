@@ -37,6 +37,8 @@ class PhotoVC: UIViewController{
     }
     
     @IBAction func recomendationPressed(_ sender: UIButton) {
+        let result = ImageApiManager.init().uploadImage(image: image)
+        print(result)
         if let presentedViewController = self.storyboard?.instantiateViewController(withIdentifier: "RecomendationVC") {
             self.present(presentedViewController, animated: true, completion: nil)
         }

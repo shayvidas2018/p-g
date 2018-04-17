@@ -13,6 +13,14 @@
 		850FB223207A0A7F00E6658D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850FB221207A0A7F00E6658D /* LaunchScreen.storyboard */; };
 		850FB22E207A0A7F00E6658D /* ProcterGambleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850FB22D207A0A7F00E6658D /* ProcterGambleTests.swift */; };
 		850FB239207A0A7F00E6658D /* ProcterGambleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850FB238207A0A7F00E6658D /* ProcterGambleUITests.swift */; };
+		8511F13C2085D6F800B8764A /* CaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8511F13A2085D6F800B8764A /* CaptureSession.swift */; };
+		8511F13D2085D6F800B8764A /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8511F13B2085D6F800B8764A /* PhotoCaptureDelegate.swift */; };
+		8511F144208628FD00B8764A /* cuppon_lively_color_two.png in Resources */ = {isa = PBXBuildFile; fileRef = 8511F13E208628FC00B8764A /* cuppon_lively_color_two.png */; };
+		8511F145208628FD00B8764A /* cuppon_smooth_silk_two.png in Resources */ = {isa = PBXBuildFile; fileRef = 8511F13F208628FC00B8764A /* cuppon_smooth_silk_two.png */; };
+		8511F146208628FD00B8764A /* square_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8511F140208628FC00B8764A /* square_button.png */; };
+		8511F147208628FD00B8764A /* send_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8511F141208628FC00B8764A /* send_button.png */; };
+		8511F148208628FD00B8764A /* cuppon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8511F142208628FC00B8764A /* cuppon.png */; };
+		8511F149208628FD00B8764A /* cupon_repair_protect_two.png in Resources */ = {isa = PBXBuildFile; fileRef = 8511F143208628FC00B8764A /* cupon_repair_protect_two.png */; };
 		8513113220836B94008DF6F4 /* main_bg_updated.png in Resources */ = {isa = PBXBuildFile; fileRef = 8513112220836B93008DF6F4 /* main_bg_updated.png */; };
 		8513113320836B94008DF6F4 /* animation_one.png in Resources */ = {isa = PBXBuildFile; fileRef = 8513112320836B93008DF6F4 /* animation_one.png */; };
 		8513113420836B94008DF6F4 /* takepicture.png in Resources */ = {isa = PBXBuildFile; fileRef = 8513112420836B93008DF6F4 /* takepicture.png */; };
@@ -60,6 +68,7 @@
 		859BB6EA207CD710008870F5 /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859BB6E9207CD710008870F5 /* SettingsPresenter.swift */; };
 		859BB6EC207CD764008870F5 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 859BB6EB207CD764008870F5 /* Podfile */; };
 		859BB6F1207CF684008870F5 /* language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859BB6F0207CF684008870F5 /* language.swift */; };
+		D7D109776152448852F300B2 /* Pods_ProcterGamble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA6E8D93C7BCA3275364AB7 /* Pods_ProcterGamble.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +101,14 @@
 		850FB234207A0A7F00E6658D /* ProcterGambleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProcterGambleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		850FB238207A0A7F00E6658D /* ProcterGambleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcterGambleUITests.swift; sourceTree = "<group>"; };
 		850FB23A207A0A7F00E6658D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8511F13A2085D6F800B8764A /* CaptureSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureSession.swift; sourceTree = "<group>"; };
+		8511F13B2085D6F800B8764A /* PhotoCaptureDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCaptureDelegate.swift; sourceTree = "<group>"; };
+		8511F13E208628FC00B8764A /* cuppon_lively_color_two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuppon_lively_color_two.png; sourceTree = "<group>"; };
+		8511F13F208628FC00B8764A /* cuppon_smooth_silk_two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuppon_smooth_silk_two.png; sourceTree = "<group>"; };
+		8511F140208628FC00B8764A /* square_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square_button.png; sourceTree = "<group>"; };
+		8511F141208628FC00B8764A /* send_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = send_button.png; sourceTree = "<group>"; };
+		8511F142208628FC00B8764A /* cuppon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuppon.png; sourceTree = "<group>"; };
+		8511F143208628FC00B8764A /* cupon_repair_protect_two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cupon_repair_protect_two.png; sourceTree = "<group>"; };
 		8513112220836B93008DF6F4 /* main_bg_updated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_bg_updated.png; sourceTree = "<group>"; };
 		8513112320836B93008DF6F4 /* animation_one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_one.png; sourceTree = "<group>"; };
 		8513112420836B93008DF6F4 /* takepicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takepicture.png; sourceTree = "<group>"; };
@@ -139,6 +156,9 @@
 		859BB6E9207CD710008870F5 /* SettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPresenter.swift; sourceTree = "<group>"; };
 		859BB6EB207CD764008870F5 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		859BB6F0207CF684008870F5 /* language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = language.swift; sourceTree = "<group>"; };
+		91BFC0EE78A892AEAD80E16F /* Pods-ProcterGamble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProcterGamble.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProcterGamble/Pods-ProcterGamble.release.xcconfig"; sourceTree = "<group>"; };
+		ACA6E8D93C7BCA3275364AB7 /* Pods_ProcterGamble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProcterGamble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA83B2C1E28628E3F5F5B3FA /* Pods-ProcterGamble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProcterGamble.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProcterGamble/Pods-ProcterGamble.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7D109776152448852F300B2 /* Pods_ProcterGamble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +187,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		425EC89A0919C36D27C848C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACA6E8D93C7BCA3275364AB7 /* Pods_ProcterGamble.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5084842A47C6A2B11CC57366 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA83B2C1E28628E3F5F5B3FA /* Pods-ProcterGamble.debug.xcconfig */,
+				91BFC0EE78A892AEAD80E16F /* Pods-ProcterGamble.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		850FB20C207A0A7F00E6658D = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +212,8 @@
 				850FB22C207A0A7F00E6658D /* ProcterGambleTests */,
 				850FB237207A0A7F00E6658D /* ProcterGambleUITests */,
 				850FB216207A0A7F00E6658D /* Products */,
+				5084842A47C6A2B11CC57366 /* Pods */,
+				425EC89A0919C36D27C848C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -246,6 +286,12 @@
 		859BB6B7207CC731008870F5 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				8511F143208628FC00B8764A /* cupon_repair_protect_two.png */,
+				8511F13E208628FC00B8764A /* cuppon_lively_color_two.png */,
+				8511F13F208628FC00B8764A /* cuppon_smooth_silk_two.png */,
+				8511F142208628FC00B8764A /* cuppon.png */,
+				8511F141208628FC00B8764A /* send_button.png */,
+				8511F140208628FC00B8764A /* square_button.png */,
 				85131144208394C2008DF6F4 /* rec_one.jpg */,
 				85131142208394C1008DF6F4 /* rec_three.jpg */,
 				85131143208394C1008DF6F4 /* rec_two.jpg */,
@@ -272,6 +318,8 @@
 		859BB6BA207CC8D9008870F5 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				8511F13A2085D6F800B8764A /* CaptureSession.swift */,
+				8511F13B2085D6F800B8764A /* PhotoCaptureDelegate.swift */,
 				859BB6D7207CCC3D008870F5 /* AppManager.swift */,
 			);
 			path = Managers;
@@ -366,9 +414,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 850FB23D207A0A7F00E6658D /* Build configuration list for PBXNativeTarget "ProcterGamble" */;
 			buildPhases = (
+				F188A611157EAB687D71517B /* [CP] Check Pods Manifest.lock */,
 				850FB211207A0A7F00E6658D /* Sources */,
 				850FB212207A0A7F00E6658D /* Frameworks */,
 				850FB213207A0A7F00E6658D /* Resources */,
+				C33AB47EBC2853BCBB84AD8F /* [CP] Embed Pods Frameworks */,
+				4F7E7249B2DD4CE046DBB12E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -473,8 +524,10 @@
 			files = (
 				8513113920836B94008DF6F4 /* animation_four.png in Resources */,
 				850FB223207A0A7F00E6658D /* LaunchScreen.storyboard in Resources */,
+				8511F148208628FD00B8764A /* cuppon.png in Resources */,
 				8513114020836B94008DF6F4 /* animation_two.png in Resources */,
 				8513113C20836B94008DF6F4 /* back_button.png in Resources */,
+				8511F149208628FD00B8764A /* cupon_repair_protect_two.png in Resources */,
 				8513113F20836B94008DF6F4 /* text_shooting.png in Resources */,
 				8513113320836B94008DF6F4 /* animation_one.png in Resources */,
 				8513113520836B94008DF6F4 /* shoot_text.png in Resources */,
@@ -485,7 +538,10 @@
 				8513113E20836B94008DF6F4 /* Net.png in Resources */,
 				8513113620836B94008DF6F4 /* vector_three.png in Resources */,
 				8513113820836B94008DF6F4 /* i_want_start.png in Resources */,
+				8511F144208628FD00B8764A /* cuppon_lively_color_two.png in Resources */,
 				85131145208394C2008DF6F4 /* rec_three.jpg in Resources */,
+				8511F147208628FD00B8764A /* send_button.png in Resources */,
+				8511F146208628FD00B8764A /* square_button.png in Resources */,
 				8513114120836B94008DF6F4 /* main_background.png in Resources */,
 				850FB220207A0A7F00E6658D /* Assets.xcassets in Resources */,
 				8513113B20836B94008DF6F4 /* vector_four.png in Resources */,
@@ -493,6 +549,7 @@
 				85131147208394C2008DF6F4 /* rec_one.jpg in Resources */,
 				85131146208394C2008DF6F4 /* rec_two.jpg in Resources */,
 				850FB21E207A0A7F00E6658D /* Main.storyboard in Resources */,
+				8511F145208628FD00B8764A /* cuppon_smooth_silk_two.png in Resources */,
 				8513113A20836B94008DF6F4 /* animation_three.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,6 +570,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4F7E7249B2DD4CE046DBB12E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProcterGamble/Pods-ProcterGamble-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C33AB47EBC2853BCBB84AD8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ProcterGamble/Pods-ProcterGamble-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProcterGamble/Pods-ProcterGamble-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F188A611157EAB687D71517B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProcterGamble-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		850FB211207A0A7F00E6658D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -523,6 +638,7 @@
 				859BB6D2207CCB2C008870F5 /* Storage.swift in Sources */,
 				859BB6C0207CCA5B008870F5 /* CouponVC.swift in Sources */,
 				859BB6E2207CD639008870F5 /* CameraPresenter.swift in Sources */,
+				8511F13D2085D6F800B8764A /* PhotoCaptureDelegate.swift in Sources */,
 				859BB6F1207CF684008870F5 /* language.swift in Sources */,
 				859BB6E4207CD6A3008870F5 /* PhotoPresenter.swift in Sources */,
 				859BB6BE207CCA4A008870F5 /* PhotoVC.swift in Sources */,
@@ -537,6 +653,7 @@
 				859BB6E6207CD6DC008870F5 /* CouponPresenter.swift in Sources */,
 				859BB6C6207CCAA7008870F5 /* CameraModel.swift in Sources */,
 				859BB6CE207CCAEC008870F5 /* PolicyModel.swift in Sources */,
+				8511F13C2085D6F800B8764A /* CaptureSession.swift in Sources */,
 				859BB6CA207CCACA008870F5 /* PhotoModel.swift in Sources */,
 				85170AC220833850000AE5CD /* RecomendationVC.swift in Sources */,
 				859BB6EA207CD710008870F5 /* SettingsPresenter.swift in Sources */,
@@ -709,6 +826,7 @@
 		};
 		850FB23E207A0A7F00E6658D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA83B2C1E28628E3F5F5B3FA /* Pods-ProcterGamble.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -724,6 +842,7 @@
 		};
 		850FB23F207A0A7F00E6658D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91BFC0EE78A892AEAD80E16F /* Pods-ProcterGamble.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
