@@ -16,11 +16,12 @@ protocol PhotoView: class {
 class PhotoVC: UIViewController{
     
     var image: UIImage! = nil
-    var presenter: PhotoPresenter! = nil
+    var presenterPhoto: PhotoPresenter! = nil
+    var recomendationView: RecomendationView?
     @IBOutlet weak var imageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        presenter = PhotoPresenter()
+        presenterPhoto = PhotoPresenter()
         imageView.image = image
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -37,8 +38,8 @@ class PhotoVC: UIViewController{
     }
     
     @IBAction func recomendationPressed(_ sender: UIButton) {
-        let result = ImageApiManager.init().uploadImage(image: image)
-        print(result)
+//        let result = ImageApiManager.init().uploadImage(image: image)
+        recomendationView?.setImage(image: image)
         if let presentedViewController = self.storyboard?.instantiateViewController(withIdentifier: "RecomendationVC") {
             self.present(presentedViewController, animated: true, completion: nil)
         }

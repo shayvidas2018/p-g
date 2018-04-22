@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8509AEF0208CCCA900FFC7AD /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8509AEEF208CCCA900FFC7AD /* CameraManager.swift */; };
+		8509AEF2208CD04B00FFC7AD /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8509AEF1208CD04B00FFC7AD /* Protocols.swift */; };
 		850FB219207A0A7F00E6658D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850FB218207A0A7F00E6658D /* AppDelegate.swift */; };
 		850FB21E207A0A7F00E6658D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850FB21C207A0A7F00E6658D /* Main.storyboard */; };
 		850FB220207A0A7F00E6658D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850FB21F207A0A7F00E6658D /* Assets.xcassets */; };
@@ -21,6 +23,18 @@
 		8511F147208628FD00B8764A /* send_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8511F141208628FC00B8764A /* send_button.png */; };
 		8511F148208628FD00B8764A /* cuppon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8511F142208628FC00B8764A /* cuppon.png */; };
 		8511F149208628FD00B8764A /* cupon_repair_protect_two.png in Resources */ = {isa = PBXBuildFile; fileRef = 8511F143208628FC00B8764A /* cupon_repair_protect_two.png */; };
+		8511F14D208637C700B8764A /* template.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8511F14A208637C700B8764A /* template.jpg */; };
+		8511F14E208637C700B8764A /* back_to_app_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8511F14B208637C700B8764A /* back_to_app_button.png */; };
+		8511F14F208637C700B8764A /* Vector Smart Object.png in Resources */ = {isa = PBXBuildFile; fileRef = 8511F14C208637C700B8764A /* Vector Smart Object.png */; };
+		8511F15920863C9600B8764A /* lively_color_one.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8511F15020863C9500B8764A /* lively_color_one.jpg */; };
+		8511F15A20863C9600B8764A /* lively_color_two.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8511F15120863C9500B8764A /* lively_color_two.jpg */; };
+		8511F15B20863C9600B8764A /* lively_color_three.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8511F15220863C9500B8764A /* lively_color_three.jpg */; };
+		8511F15C20863C9600B8764A /* repair_protect_three.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8511F15320863C9500B8764A /* repair_protect_three.jpg */; };
+		8511F15D20863C9600B8764A /* repair_protect_two.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8511F15420863C9500B8764A /* repair_protect_two.jpg */; };
+		8511F15E20863C9600B8764A /* smooth_silky_two.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8511F15520863C9500B8764A /* smooth_silky_two.jpg */; };
+		8511F15F20863C9600B8764A /* smooth_silky_three.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8511F15620863C9500B8764A /* smooth_silky_three.jpg */; };
+		8511F16020863C9600B8764A /* smooth_silky_one.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8511F15720863C9600B8764A /* smooth_silky_one.jpg */; };
+		8511F16120863C9600B8764A /* repair_protect_one.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8511F15820863C9600B8764A /* repair_protect_one.jpg */; };
 		8513113220836B94008DF6F4 /* main_bg_updated.png in Resources */ = {isa = PBXBuildFile; fileRef = 8513112220836B93008DF6F4 /* main_bg_updated.png */; };
 		8513113320836B94008DF6F4 /* animation_one.png in Resources */ = {isa = PBXBuildFile; fileRef = 8513112320836B93008DF6F4 /* animation_one.png */; };
 		8513113420836B94008DF6F4 /* takepicture.png in Resources */ = {isa = PBXBuildFile; fileRef = 8513112420836B93008DF6F4 /* takepicture.png */; };
@@ -89,6 +103,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8509AEEF208CCCA900FFC7AD /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		8509AEF1208CD04B00FFC7AD /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		850FB215207A0A7F00E6658D /* ProcterGamble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProcterGamble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		850FB218207A0A7F00E6658D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		850FB21D207A0A7F00E6658D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -109,6 +125,18 @@
 		8511F141208628FC00B8764A /* send_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = send_button.png; sourceTree = "<group>"; };
 		8511F142208628FC00B8764A /* cuppon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuppon.png; sourceTree = "<group>"; };
 		8511F143208628FC00B8764A /* cupon_repair_protect_two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cupon_repair_protect_two.png; sourceTree = "<group>"; };
+		8511F14A208637C700B8764A /* template.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = template.jpg; sourceTree = "<group>"; };
+		8511F14B208637C700B8764A /* back_to_app_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_to_app_button.png; sourceTree = "<group>"; };
+		8511F14C208637C700B8764A /* Vector Smart Object.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vector Smart Object.png"; sourceTree = "<group>"; };
+		8511F15020863C9500B8764A /* lively_color_one.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lively_color_one.jpg; sourceTree = "<group>"; };
+		8511F15120863C9500B8764A /* lively_color_two.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lively_color_two.jpg; sourceTree = "<group>"; };
+		8511F15220863C9500B8764A /* lively_color_three.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lively_color_three.jpg; sourceTree = "<group>"; };
+		8511F15320863C9500B8764A /* repair_protect_three.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = repair_protect_three.jpg; sourceTree = "<group>"; };
+		8511F15420863C9500B8764A /* repair_protect_two.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = repair_protect_two.jpg; sourceTree = "<group>"; };
+		8511F15520863C9500B8764A /* smooth_silky_two.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smooth_silky_two.jpg; sourceTree = "<group>"; };
+		8511F15620863C9500B8764A /* smooth_silky_three.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smooth_silky_three.jpg; sourceTree = "<group>"; };
+		8511F15720863C9600B8764A /* smooth_silky_one.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smooth_silky_one.jpg; sourceTree = "<group>"; };
+		8511F15820863C9600B8764A /* repair_protect_one.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = repair_protect_one.jpg; sourceTree = "<group>"; };
 		8513112220836B93008DF6F4 /* main_bg_updated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_bg_updated.png; sourceTree = "<group>"; };
 		8513112320836B93008DF6F4 /* animation_one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_one.png; sourceTree = "<group>"; };
 		8513112420836B93008DF6F4 /* takepicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takepicture.png; sourceTree = "<group>"; };
@@ -286,6 +314,18 @@
 		859BB6B7207CC731008870F5 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				8511F15020863C9500B8764A /* lively_color_one.jpg */,
+				8511F15220863C9500B8764A /* lively_color_three.jpg */,
+				8511F15120863C9500B8764A /* lively_color_two.jpg */,
+				8511F15820863C9600B8764A /* repair_protect_one.jpg */,
+				8511F15320863C9500B8764A /* repair_protect_three.jpg */,
+				8511F15420863C9500B8764A /* repair_protect_two.jpg */,
+				8511F15720863C9600B8764A /* smooth_silky_one.jpg */,
+				8511F15620863C9500B8764A /* smooth_silky_three.jpg */,
+				8511F15520863C9500B8764A /* smooth_silky_two.jpg */,
+				8511F14B208637C700B8764A /* back_to_app_button.png */,
+				8511F14A208637C700B8764A /* template.jpg */,
+				8511F14C208637C700B8764A /* Vector Smart Object.png */,
 				8511F143208628FC00B8764A /* cupon_repair_protect_two.png */,
 				8511F13E208628FC00B8764A /* cuppon_lively_color_two.png */,
 				8511F13F208628FC00B8764A /* cuppon_smooth_silk_two.png */,
@@ -321,6 +361,7 @@
 				8511F13A2085D6F800B8764A /* CaptureSession.swift */,
 				8511F13B2085D6F800B8764A /* PhotoCaptureDelegate.swift */,
 				859BB6D7207CCC3D008870F5 /* AppManager.swift */,
+				8509AEEF208CCCA900FFC7AD /* CameraManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -341,6 +382,7 @@
 				859BB6C5207CCAA7008870F5 /* CameraModel.swift */,
 				859BB6BB207CCA26008870F5 /* CameraVC.swift */,
 				859BB6E1207CD639008870F5 /* CameraPresenter.swift */,
+				8509AEF1208CD04B00FFC7AD /* Protocols.swift */,
 			);
 			path = Camera;
 			sourceTree = "<group>";
@@ -529,24 +571,36 @@
 				8513113C20836B94008DF6F4 /* back_button.png in Resources */,
 				8511F149208628FD00B8764A /* cupon_repair_protect_two.png in Resources */,
 				8513113F20836B94008DF6F4 /* text_shooting.png in Resources */,
+				8511F14E208637C700B8764A /* back_to_app_button.png in Resources */,
 				8513113320836B94008DF6F4 /* animation_one.png in Resources */,
+				8511F16120863C9600B8764A /* repair_protect_one.jpg in Resources */,
 				8513113520836B94008DF6F4 /* shoot_text.png in Resources */,
 				8513113D20836B94008DF6F4 /* vector_one.png in Resources */,
 				8513113720836B94008DF6F4 /* vector_two.png in Resources */,
 				8513113220836B94008DF6F4 /* main_bg_updated.png in Resources */,
+				8511F15F20863C9600B8764A /* smooth_silky_three.jpg in Resources */,
 				8513113420836B94008DF6F4 /* takepicture.png in Resources */,
 				8513113E20836B94008DF6F4 /* Net.png in Resources */,
+				8511F15B20863C9600B8764A /* lively_color_three.jpg in Resources */,
+				8511F16020863C9600B8764A /* smooth_silky_one.jpg in Resources */,
 				8513113620836B94008DF6F4 /* vector_three.png in Resources */,
 				8513113820836B94008DF6F4 /* i_want_start.png in Resources */,
 				8511F144208628FD00B8764A /* cuppon_lively_color_two.png in Resources */,
+				8511F15E20863C9600B8764A /* smooth_silky_two.jpg in Resources */,
 				85131145208394C2008DF6F4 /* rec_three.jpg in Resources */,
+				8511F15A20863C9600B8764A /* lively_color_two.jpg in Resources */,
+				8511F15C20863C9600B8764A /* repair_protect_three.jpg in Resources */,
 				8511F147208628FD00B8764A /* send_button.png in Resources */,
+				8511F14D208637C700B8764A /* template.jpg in Resources */,
 				8511F146208628FD00B8764A /* square_button.png in Resources */,
 				8513114120836B94008DF6F4 /* main_background.png in Resources */,
 				850FB220207A0A7F00E6658D /* Assets.xcassets in Resources */,
 				8513113B20836B94008DF6F4 /* vector_four.png in Resources */,
 				859BB6EC207CD764008870F5 /* Podfile in Resources */,
 				85131147208394C2008DF6F4 /* rec_one.jpg in Resources */,
+				8511F14F208637C700B8764A /* Vector Smart Object.png in Resources */,
+				8511F15D20863C9600B8764A /* repair_protect_two.jpg in Resources */,
+				8511F15920863C9600B8764A /* lively_color_one.jpg in Resources */,
 				85131146208394C2008DF6F4 /* rec_two.jpg in Resources */,
 				850FB21E207A0A7F00E6658D /* Main.storyboard in Resources */,
 				8511F145208628FD00B8764A /* cuppon_smooth_silk_two.png in Resources */,
@@ -637,6 +691,7 @@
 				859BB6C8207CCAB9008870F5 /* HomePageModel.swift in Sources */,
 				859BB6D2207CCB2C008870F5 /* Storage.swift in Sources */,
 				859BB6C0207CCA5B008870F5 /* CouponVC.swift in Sources */,
+				8509AEF0208CCCA900FFC7AD /* CameraManager.swift in Sources */,
 				859BB6E2207CD639008870F5 /* CameraPresenter.swift in Sources */,
 				8511F13D2085D6F800B8764A /* PhotoCaptureDelegate.swift in Sources */,
 				859BB6F1207CF684008870F5 /* language.swift in Sources */,
@@ -660,6 +715,7 @@
 				85170AC420833862000AE5CD /* RecomendationModel.swift in Sources */,
 				859BB6C2207CCA6C008870F5 /* PolicyVC.swift in Sources */,
 				859BB6E8207CD6FB008870F5 /* PolicyPresenter.swift in Sources */,
+				8509AEF2208CD04B00FFC7AD /* Protocols.swift in Sources */,
 				859BB6D0207CCAFC008870F5 /* SettingsModel.swift in Sources */,
 				85170AC72083387D000AE5CD /* RecomendationPresenter.swift in Sources */,
 			);

@@ -10,10 +10,16 @@ import Foundation
 import Foundation
 import UIKit
 
-class RecomendationVC: UIViewController{
+protocol RecomendationView {
+    func setImage(image: UIImage)
+}
+
+class RecomendationVC: UIViewController, RecomendationView{
     
     @IBOutlet weak var animation_image: UIImageView!
     @IBOutlet weak var getCoupon: UIButton!
+    
+    var recomendationPresenter: RecomendationPresenter! = nil
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -31,8 +37,12 @@ class RecomendationVC: UIViewController{
     
     @objc func stopAnimation (){
         animation_image.stopAnimating()
-        
+        animation_image.image = UIImage(named: "lively_color_one.jpg")
         getCoupon.isHidden = false
+    }
+    
+    func setImage(image: UIImage) {
+        let result = ImageApiManager.init().uploadImage(image: image)
     }
     
 }
